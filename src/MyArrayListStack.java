@@ -32,7 +32,7 @@ public class MyArrayListStack <E> implements Stack<E> {
 
     @Override
     public int size() {
-        return 0;
+        return list.size();
     }
 }
 
