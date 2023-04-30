@@ -12,7 +12,10 @@ public class MyArrayListStack <E> implements Stack<E> {
 
     @Override
     public E pop() {
-        return null;
+        if (isEmpty()) {
+            System.out.println("The stack is already empty  ");
+        }
+            return (E) list.remove(list.size()-1);
     }
 
     @Override
