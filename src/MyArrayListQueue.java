@@ -7,7 +7,7 @@ public class MyArrayListQueue <E> implements Queue <E> {
 
     @Override
     public void enqueue(E item) {
-
+        list.add(item);
     }
 
     @Override
