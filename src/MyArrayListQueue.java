@@ -1,4 +1,10 @@
 public class MyArrayListQueue <E> implements Queue <E> {
+    private MyArrayList<E> list;
+
+    public  MyArrayListQueue() {
+        this.list= new MyArrayList<>();
+    }
+
     @Override
     public void enqueue(E item) {
 
