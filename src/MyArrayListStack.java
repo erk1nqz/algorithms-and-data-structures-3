@@ -7,7 +7,7 @@ public class MyArrayListStack <E> implements Stack<E> {
 
     @Override
     public void push(E item) {
-
+        list.add(item);
     }
 
     @Override
