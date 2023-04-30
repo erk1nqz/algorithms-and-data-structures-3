@@ -175,4 +175,8 @@ public class MyArrayList<E> implements MyList {
             throw new IndexOutOfBoundsException();
         }
     }
+
+    public boolean isEmpty() {
+        return size == 0;
+    }
 }

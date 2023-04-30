@@ -22,7 +22,12 @@ public class MyArrayListStack <E> implements Stack<E> {
 
     @Override
     public boolean isEmpty() {
-        return false;
+        if (list.isEmpty()) {
+            return true;
+        } else {
+            return false;
+        }
+
     }
 
     @Override
