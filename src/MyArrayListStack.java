@@ -1,8 +1,28 @@
-public class MyArrayListStack <E> {
-    MyArrayList<E> list;
+public class MyArrayListStack <E> implements Stack<E> {
 
-    public MyArrayListStack() {
-        this.list = new MyArrayList<E> ();
+    @Override
+    public void push(E item) {
+
     }
 
+    @Override
+    public E pop() {
+        return null;
+    }
+
+    @Override
+    public E peek() {
+        return null;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return false;
+    }
+
+    @Override
+    public int size() {
+        return 0;
+    }
 }
+
