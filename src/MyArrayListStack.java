@@ -20,7 +20,7 @@ public class MyArrayListStack <E> implements Stack<E> {
 
     @Override
     public E peek() {
-        return null;
+        return (E) list.get(list.size()-1);
     }
 
     @Override
