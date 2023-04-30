@@ -1,4 +1,9 @@
 public class MyArrayListStack <E> implements Stack<E> {
+    MyArrayList<E> list;
+
+    public MyArrayListStack() {
+        this.list = new MyArrayList<E>();
+    }
 
     @Override
     public void push(E item) {
