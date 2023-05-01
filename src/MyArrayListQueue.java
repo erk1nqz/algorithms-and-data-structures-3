@@ -1,3 +1,5 @@
+import java.util.NoSuchElementException;
+
 public class MyArrayListQueue <E> implements Queue <E> {
     private MyArrayList<E> list;
 
@@ -12,12 +14,15 @@ public class MyArrayListQueue <E> implements Queue <E> {
 
     @Override
     public E dequeue() {
-        return null;
+        return (E) list.remove(list.size()-1);
     }
 
     @Override
     public E peek() {
-        return null;
+        if (isEmpty()) {
+            throw new NoSuchElementException();
+        }
+        return (E) list.get(list.size()-1);
     }
 
     @Override
