@@ -81,6 +81,17 @@ public interface Queue<E> {
     }
 ```
 
+
+#### ✂️ method size()
+```java
+ @Override
+    public int size() {
+        return list.size();
+    }
+```
+
+
+
 ## 📙  MyArrayListQueue.java
 **Description**: *Description: creating a class MyArrayListQueue to understand how queues works and see examples. Class has method: enqueue, dequeue, peek, isEmpty, size.*
 
@@ -131,3 +142,6 @@ public interface Queue<E> {
         return list.size();
     }
 ```
+
+
+
