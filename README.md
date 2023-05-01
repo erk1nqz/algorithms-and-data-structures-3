@@ -1,5 +1,5 @@
-# 📚 Assignment 3 Erkinkyzy Bakyt
-# 👀 interfaces
+# 📚 Assignment 3 | Erkinkyzy Bakyt
+## 👀 interfaces
 
 ### 🖇️ Stack.java
 **Description**: *Creating an interface Stack.java helps to define all methods we have to do and then we implements this interface in class MyArrayListStack.*
